@@ -115,3 +115,382 @@ const ContactForm = () => {
 }
 
 export default ContactForm;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//fetch an api
+// import React, { useState, useEffect } from 'react';
+// import axios from 'axios';
+
+// const App = () => {
+//   const [data, setData] = useState([]);
+
+//   useEffect(() => {
+//     const fetchData = async () => {
+//       const result = await axios(
+//         'https://jsonplaceholder.typicode.com/users',
+//       );
+
+//       setData(result.data);
+//     };
+
+//     fetchData();
+//   }, []);
+
+//   return (
+//     <ul>
+//       {data.map(item => (
+//         <li key={item.id}>
+//           {item.name} {item.email}
+//         </li>
+//       ))}
+//     </ul>
+//   );
+// };
+
+// export default App;
+//a component is changing an uncontrolled input to be controlled
+// import React, { useState } from 'react';
+// import { Formik, Form, Field, ErrorMessage } from 'formik';
+// import * as Yup from 'yup';
+
+// const ContactForm = () => {
+//   const [initialValues, setInitialValues] = useState({
+//     name: '',
+//     email: '',
+//     phone: '',
+//     birth: '',
+//     neighborhood: '',
+//     period: '',
+//     contact: '',
+
+

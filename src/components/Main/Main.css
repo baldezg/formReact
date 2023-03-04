@@ -1,0 +1,10 @@
+.wrapper{
+    background-color: #cf8f7a;
+    display: flex;
+    padding:6rem 3rem;
+  }
+.pane {
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
+    flex:1;
+    
+}

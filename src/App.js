@@ -4,17 +4,19 @@ import './components/ContactForm/ContactForm.css';
 import './components/InputField/InputField.css';
 import './components/DatePicker/DatePicker.css';
 import './components/SelectField/SelectedField.css';
-import './components/RadioField/RadioField.css'
+import './components/RadioField/RadioField.css';
+import { Main } from './components/Main/Main';
+import { Banner } from './components/Banner/Banner'
+import './components/Main/Main.css';
+import './components/Banner/Banner.css'
 
 function App() {
   return (
-    <div className="wrapper">
-    <div className="text">
-      <h1>Não encontrou o que procurava?</h1>
-      <p>Preencha o formulário e retornaremos o contato.</p>
-    </div>
+    <Main>
+      <Banner />
       <ContactForm />
-    </div>
+    </Main>
+    
   );
 }
 
