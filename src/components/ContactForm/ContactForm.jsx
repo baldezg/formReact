@@ -92,7 +92,7 @@ const ContactForm = () => {
           />
           <DatePickerField
             className="date-picker"
-            label="Informe sua data de nasciento"
+            label="Informe sua data de nascimento"
             name="birth"
             type="date"
             dateFormat="dd/MM/yyyy"

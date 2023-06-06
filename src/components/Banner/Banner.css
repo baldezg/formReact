@@ -1,6 +1,13 @@
 .banner{
-    background-color: #111216;
-    color: #e8e8e9;
-    height: 100%;
-    padding: 2rem;
-  }
+  background-color: var(--bg-black);
+  color: var(--platinum);
+  height: 100%;
+  padding: 2rem;
+}
+.banner h1{
+  font-family: var(--font-title);
+  margin-bottom: .5rem;
+}
+.banner p{
+  font-weight: 300;
+}

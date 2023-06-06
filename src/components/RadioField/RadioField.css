@@ -1,3 +1,12 @@
 .radio-group{
     width: 100%;
 }
+.radio-group fieldset{
+    display: flex;
+    gap: 0.5rem;
+    padding: .5rem;
+}
+.radio-group fieldset label{
+    display: flex;
+    gap: 0.2rem;
+}
