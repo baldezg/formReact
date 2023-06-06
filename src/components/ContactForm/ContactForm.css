@@ -1,8 +1,8 @@
 .form{
-  background-color: #e8e8e9;
+  background-color: var(--platinum);
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-between;
+  gap: 0.5rem;
 }
 
 

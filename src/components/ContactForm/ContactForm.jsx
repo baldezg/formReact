@@ -69,7 +69,6 @@ const ContactForm = () => {
         }}
       >
         <Form className='form'>
-          
           <InputField
             label="Nome"
             name="name"
@@ -87,8 +86,7 @@ const ContactForm = () => {
             name="phone"
             type="tel"
             placeholder="(00) 00000-0000"
-            onKeyUp={handleTyping}
-            
+            onKeyUp={handleTyping}       
           />
           <DatePickerField
             className="date-picker"
@@ -100,14 +98,17 @@ const ContactForm = () => {
             showYearDropdown
             selected={null}
           />
-          <SelectField label="Informe o bairro de seu interesse" name="neighborhood" list={listOfNeighborhoods}>
+          <SelectField 
+            label="Informe o bairro de seu interesse" 
+            name="neighborhood" 
+            list={listOfNeighborhoods}>
           </SelectField>
-
-          <SelectField label="Informe o período de seu interesse" name="period" list={listOfPeriods}>
+          <SelectField 
+            label="Informe o período de seu interesse"
+            name="period"
+            list={listOfPeriods}>
           </SelectField>
-
           <RadioField />
-
           <button type="submit">Enviar</button>
         </Form>
       </Formik>
